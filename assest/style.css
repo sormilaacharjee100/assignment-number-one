@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-part{
+ background-image: url('../assest/images/banner/banner1.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 800px;
+}
+.banner-part .content{
+    text-align: right;
+    margin-left: 700px;
+    padding-right: 100px;
+}
+.banner-part .content h3{
+    font-size: 30px;
+    padding-top: 220px;
+   
+}
+.banner-part .content p{
+    font-size: 16px;
+    padding: 15px 0;
+   
+}
+.banner-part .content button{
+    padding: 10px 15px;
+    background-color: navy;
+    font-size: 18px;
+    
+}
+.banner-part .content button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*------about section --------------*/
+.about-us{
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+    padding: 120px 0px;
+    text-align:left;
+}
+.about-us .about-content{
+    margin: 0 100px;
+}
+.about-us .about-content h3{
+     font-size: 30px;
+     font-weight: 700;
+}
+.about-us .about-content p{
+    padding: 10px 0;
+    width: 380px;
+}
+.about-us .about-content ul li{
+    padding: 10px 0;
+}
+/*-----------------plan -----------------*/
+
+.main-plan .title{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.main-plan .plan-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    text-align: center;
+}
+.main-plan .plan-content h3{
+    font-size: 25px;
+    
+}
+.main-plan .plan-content  p{
+    font-size: 18px;
+}
+
+/*----------blog  content-------------------*/
+.blog-sector{
+    background-color: #ff77;
+   
+    padding: 45px 45px;
+    margin-top: 120px;
+}
+.blog-sector .title{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 0;
+}
+.blog-sector .blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+.blog-sector .blog h3{
+    font-size: 25px;
+}
+.blog-sector .blog p{
+    width: 80%;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.blog-sector .blog button{
+    padding: 10px 15px;
+    background-color: navy;
+    font-size: 18px;
+}
+
+.blog-sector .blog button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+/*----------cat content-------------------*/
+.cat{
+    padding: 70px 0;
+    margin: 50px 100px;
+}
+.cat .cat-content{
+    background-image: url('../assest/images/watch.png'), linear-gradient(
+        to bottom,
+        rgba(214, 66, 3, 0),
+        rgba(0,11,50, 100)
+      );
+
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 300px;
+   
+}
+.cat .cat-content h3{
+    font-size: 25px ;
+    padding-top: 70px;
+   padding-left:  45px;
+
+}
+.cat .cat-content button{
+    padding: 10px 15px;
+    background-color: navy;
+    font-size: 18px;
+    margin-left: 45px;
+    margin-top: 10px;
+    
+}
+.cat .cat-content button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------------footer---------------------------*/
+footer{
+    display: flex;
+    padding: 80px 100px;
+    background-color: rgb(68, 22, 22);
+}
+footer .footer-content h3{
+    font-size: 25px;
+    color: white;
+}
+footer .footer-content p{
+    font-size: 14px;
+    width: 45%;
+    margin-top: 10px;
+    color: white;
+}
+footer .footer-content p a{
+    text-decoration: none;
+    color: white;
+}
+footer .social-icon{
+    display: flex;
+}
+footer .social-icon .social-img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.footer-subscriber {
+   font-size: 25px;
+   color: white;
+}
+.footer-subscriber input{
+    padding: 10px 15px;
+    margin: 5px 0;
+}
